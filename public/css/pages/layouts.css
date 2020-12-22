@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+    .fixed{
+        position: fixed !important;
+    }
+    #top.fixed{
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+    .fixedMenu_header #content{
+        margin-left: 250px;
+    }
+    .fixedMenu_header.sidebar-left-hidden #content{
+        margin-left: 0;
+    }
+    .sidebar-right-opened #top.fixed{
+        right:250px;
+    }
+    /* ====fixed menu =====*/
+    .boxed #top.fixed{
+        left:5%;
+        right: 5%;
+    }
+    .fixedMenu_left .wrapper{
+        margin-top: 0 !important;
+    }
+    .fixedMenu_left .rightsidebar-without-nav{
+        margin-top: -60px !important;
+    }
+    .no_left #content{
+        margin-left: 0 !important;
+    }
+}

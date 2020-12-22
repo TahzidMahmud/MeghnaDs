@@ -1,0 +1,83 @@
+#top .navbar {
+	margin-bottom: 0;
+	background: #7F9E40;
+}
+
+#left {
+	background-color: #7F9E40;
+}
+
+
+.skin_txt {color: #77b300;}
+
+.user-media .media-body ul.user-info li {color: #fff;}
+
+.btn-default {
+	color: #fff;
+	background-color: #7F9E40;
+
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+	color: #fff;
+	background-color: #6b843a;
+
+}
+
+/* Left Menu */
+
+#top .navbar-nav>li>.dropdown-menu {
+	background:  #617734;
+}
+
+#top .nav>li>a:hover, #top .nav>li>a:focus {
+	background: #617734;
+}
+
+#top .nav>li>a:hover, #top .nav>li.active {
+	background: #617734;
+}
+
+#menu ul {
+	background: #85995d;
+}
+
+#menu li ul>li:hover {
+	background: #85995d !important;
+}
+
+#menu li ul li:hover>a{
+	color: #fff !important;
+}
+
+#menu li.active>ul {
+	background: #85995d !important;
+}
+
+#menu li:hover {
+	background: #556B2A !important;
+}
+
+#menu>li.active {
+	background: #556B2A !important;
+}
+
+#menu li ul li ul li:hover {
+	background: #85995d !important;
+}
+
+#menu li.active ul  li.active>a {
+	color:#fff;
+}
+#top .nav > li:hover, #top .nav > li.active
+{
+	background-color: #617734;
+}
+#menu li.active ul li.active > a
+{
+	background-color: #556B2A !important;
+}
+#menu li.active ul li > a:hover
+{
+	background-color: #617734;
+}

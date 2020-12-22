@@ -1,0 +1,26 @@
+#top .navbar {
+	margin-bottom: 0;
+	background: #9c6426;
+}
+
+#left {
+background-color: #575757;
+}
+
+.skin_txt {color: #9c6426;}
+
+.btn-default {
+color: #fff;
+background-color: #9c6426;
+
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+color: #fff;
+background-color: #5E3201;
+;
+}
+#top .nav > li:hover, #top .nav > li.active
+{
+	background-color: #5E3201;
+}
